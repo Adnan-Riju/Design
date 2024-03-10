@@ -1,0 +1,139 @@
+ /*Header formate */
+.header{
+  width: 480px;
+  height: 950px;
+  top: 10px;
+  left: 100px ;
+  border: 1px solid gray;
+  background-color: rgb(233, 241, 241);
+  }
+
+   /* */
+  .flex-container 
+{
+  display: flex;
+  top: 10px;
+  left: 100px ;
+  width: 100%;
+}  
+/* position */
+.position{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+ /*image position */
+.h2 {
+  position: absolute;
+  left: 9px;
+  top: 9px;
+}
+  /* text position */
+  .text {
+    text-align: center;
+    text-indent: 30px;
+    line-height: 20px;
+
+    
+  }
+   /*lower text position */
+ .text2{
+    font-size: 10px;
+    line-height: 20px;
+ }
+  /* box formate*/
+  .box {
+    position: relative;
+    width: 90%;
+    line-height: 35px;
+    border-radius: 5%;
+    text-align: center;
+    font-size: 17px;
+    left: 30px ;
+    background: rgb(255, 255, 255);
+   
+  }
+  /* Elements of 3 box*/
+  .boxElement{
+   
+    font-size: 25px;
+    width: 90%;
+    height: 10%;
+    line-height: 15px;
+    text-indent: 45px;
+    text-align: center;
+
+    
+  }
+   /*2nd box */
+  
+  .boxElement2{
+    font-size: 12px;
+    width: 90%;
+    height: 2%;
+    line-height: -1px;
+    text-indent: 40px;
+    text-align:center ;
+
+    
+  }
+   /*3rd box element */
+  .boxElement3{
+
+    font-size: 12px;
+    width: 90%;
+    height: 2%;
+    line-height: -1px;
+    text-indent: 10px;
+    text-align:unset ;
+    
+  }
+  .boxElement4{
+
+    font-size: 12px;
+    width: 90%;
+    height: 2%;
+    line-height: 0px;
+    text-indent: 10px;
+    text-align:center ;
+    
+  }
+   /*Navbar */
+  .navbar {
+    position: relative;
+    width: 100%;
+    align-items: center;
+    line-height: 42px;
+    text-align: center;
+    left: 0px ;
+    background: rgb(209, 207, 207);
+   
+  }
+
+.next {
+  
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  border-radius: 60%;
+  display: inline-block;
+  position:relative;
+  color: rgb(241, 241, 247);
+  top: -210px;
+  left: 35px;
+  cursor: pointer;
+}
+  .nav{
+   
+
+      position: relative;
+      width: 100%;
+      align-items: center;
+      font-size: 1px;
+
+      left: 9px ;
+   
+     
+    
+  }

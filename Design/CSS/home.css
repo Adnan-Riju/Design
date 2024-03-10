@@ -1,0 +1,111 @@
+
+ /* Header*/
+.header{
+  width: 480px;
+  height: 900px;
+  top: 10px;
+  left: 100px ;
+  border: 1px solid gray;
+  background-color: rgb(233, 241, 241);
+}
+ /* flip image*/
+.img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+
+}
+ /* set position*/
+.position{
+    position:relative;
+    top: 60px;
+    left: 100px;
+    line-height: 100px;
+}
+
+.flex-container 
+{
+  display: flex;
+  top: 10px;
+  left: 100px ;
+}
+
+  .container {
+    position: relative;
+    top: -141px;
+    left: 296px ;
+}
+.image2 {
+    position: absolute;
+    left: -100 px;
+
+}
+.text {
+  width: 95%;
+  line-height: 4;
+  padding: 100;
+  display: flex;
+  justify-content: center;
+}
+.highlight{
+  color: green;
+  
+}
+.box {
+  position: relative;
+  width: 70%;
+  line-height: 50px;
+  top: -1px;
+  left: 70px ;
+  border-radius: 3%;
+  background: rgb(255, 255, 255);
+  text-align :left;
+}
+.box2 {
+  position:relative;
+  width: 70%;
+  line-height: 50px;
+  border-radius: 3%;
+  top: 2px;
+  left: 70px;
+  background: rgb(255, 255, 255);
+  text-align :left;
+}
+ /* Step position*/
+.stepPosition{
+  position:relative;
+  top: 100px;
+  left: 70px;
+}
+ /*next button */
+.next {
+  
+    height: 50px;
+    width: 50px;
+    background-color: #0c0b0b;
+    border-radius: 60%;
+    display: inline-block;
+    position:relative;
+    color: rgb(241, 241, 247);
+    top: 50px;
+    left: 215px;
+    cursor: pointer;
+}
+ /* Highlight text*/
+.highlight2{
+  
+  color: rgb(246, 242, 242);
+  background-color: #0c0b0b;
+  font-size: 30px;
+  text-align: center;
+}
+ /* next text*/
+.next2{
+    position:relative;
+    top: 52px;
+    left: 225px;
+  
+}
+
+.nextColor {
+  color: rgb(7, 7, 7);
+}
